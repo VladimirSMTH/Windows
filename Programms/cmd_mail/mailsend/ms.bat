@@ -1,0 +1,1 @@
+\ms.exe -auth -user your@mail -pass your@pass -smtp smtp.server -domain server.domain -ssl -port 465 -f from_who -t "to_who" -sub "Title!" -M "Message" -ct 30 -read-timeout 30 -log "\mailsend_log.txt" -q
